@@ -1,0 +1,15 @@
+{
+  "name": "harshs-website",
+  "description": "Design skills for websites that move like real objects: physics, thickness and life at rest.",
+  "owner": {
+    "name": "Harsh Agrawal",
+    "url": "https://github.com/hsa70-ui"
+  },
+  "plugins": [
+    {
+      "name": "harshs-website",
+      "source": "./plugins/harshs-website",
+      "description": "Build websites with one signature physical interaction: real physics, tactile detail, real thickness and a scene that stays alive at rest."
+    }
+  ]
+}

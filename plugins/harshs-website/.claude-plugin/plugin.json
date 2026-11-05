@@ -1,0 +1,13 @@
+{
+  "name": "harshs-website",
+  "version": "1.0.0",
+  "description": "Build websites with one signature physical interaction: real physics, tactile detail, real thickness and a scene that stays alive at rest.",
+  "author": {
+    "name": "Harsh Agrawal",
+    "url": "https://github.com/hsa70-ui"
+  },
+  "homepage": "https://github.com/hsa70-ui/websiteskill",
+  "repository": "https://github.com/hsa70-ui/websiteskill",
+  "license": "MIT",
+  "keywords": ["web-design", "animation", "physics", "css-3d", "interaction-design", "portfolio", "skill"]
+}

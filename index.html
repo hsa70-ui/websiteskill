@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harsh's Website · demos</title>
+<style>
+:root{--bg:#e9e6e0;--ink:#18181b;--muted:#6f6c74;--card:#fffdf9;--accent:#d65f1a;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1116;--ink:#eeebe5;--muted:#8f8a95;--card:#1a1d25;--accent:#f08d3c;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,sans-serif;padding:48px max(16px,env(safe-area-inset-left))}
+main{max-width:980px;margin:0 auto}h1{font-size:clamp(30px,5vw,52px);line-height:1.05;margin:0 0 10px;letter-spacing:-.02em}
+p{color:var(--muted);max-width:60ch}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
+a.card{display:block;background:var(--card);border-radius:18px;overflow:hidden;text-decoration:none;color:inherit;box-shadow:0 20px 40px -28px rgba(0,0,0,.5);transition:transform .3s}
+a.card:hover{transform:translateY(-4px)}a.card img{display:block;width:100%;height:auto}a.card div{padding:14px 18px}
+a.card b{display:block;font-size:18px}a.card span{font-size:14px;color:var(--muted)}.k{font:600 12px ui-monospace,monospace;letter-spacing:.14em;color:var(--accent);text-transform:uppercase}
+</style>
+</head>
+<body><main>
+<p class="k">Harsh's Website · a Claude skill</p>
+<h1>Websites that move like real objects.</h1>
+<p>Two demos built with the skill. Single HTML files, no framework, no animation library. <a href="https://github.com/hsa70-ui/websiteskill">Get the skill on GitHub</a>.</p>
+<div class="grid">
+<a class="card" href="examples/conveyor-portfolio/"><img src="docs/conveyor.gif" alt="Conveyor portfolio demo"><div><b>Conveyor portfolio</b><span>3D parcels, a barcode scanner, a truck route and two runnable models.</span></div></a>
+<a class="card" href="examples/hanging-rail/"><img src="docs/rail.gif" alt="Hanging rail demo"><div><b>Hanging rail</b><span>Objects with real thickness that drift, swing and turn to face you.</span></div></a>
+</div>
+</main></body></html>
